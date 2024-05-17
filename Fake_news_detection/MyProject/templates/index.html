@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OCR Text Extraction</title>
+</head>
+<body>
+    <h1>Upload an Image</h1>
+    <form method="POST" enctype="multipart/form-data">
+        {{ form.csrf_token }}
+        {{ form.file.label }} {{ form.file }}
+        {{ form.submit }}
+    </form>
+    {% if text %}
+    <h2>Extracted Text:</h2>
+    <p>{{ text }}</p>
+    {% endif %}
+</body>
+</html>
