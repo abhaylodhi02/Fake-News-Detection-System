@@ -27,7 +27,7 @@ Utilized the concept of Latent Variables for training the datasets which led to:
 # Tools Used:
 Programming Language: Python.
 
-Libraries: NLTK, Keras, TensorFlow, Scikit Learn, NumPy, Pandas, etc.
+Libraries: LSTM, NLTK, Keras, TensorFlow, Scikit Learn, NumPy, Pandas, etc.
 
 Domain: NLP.
 
